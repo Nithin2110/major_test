@@ -1,0 +1,45 @@
+rice lstm 200, Bi 150, St 250, gru 100, con 200
+wheat lstm 300, Bi 270, St 160, gru 190, con 150
+maize lstm 240, Bi 250, St 260, gru 210, con 150
+potato lstm 200, Bi 250, St 150, gru 100, con 250
+onion lstm 200, Bi 260, St 150, gru 250, con 190
+
+LSTM
+BI-LSTM
+STK-LSTM
+GRU
+1D-CNN
+rice
+{'lstm_units': 195, 'dense_units': 73, 'learning_rate': 0.001} 0.9879600055290938
+{'lstm_units': 195, 'dense_units': 88, 'learning_rate': 0.001} 0.9851641626300114
+{'lstm_units': 176, 'dense_units': 46, 'num_lstm_layers': 3, 'learning_rate': 0.001} 0.9875535145164919
+{'gru_units': 64, 'dense_units': 32, 'learning_rate': 0.001} 0.9877495669996617
+{'num_filters': 78, 'kernel_size': 4, 'dense_units': 40, 'learning_rate': 0.001} 0.9811233205161837 3
+
+wheat
+{'lstm_units': 153, 'dense_units': 115, 'learning_rate': 0.001} 0.9832113949542678
+{'lstm_units': 219, 'dense_units': 110, 'learning_rate': 0.001} 0.9828505947692879
+{'lstm_units': 132, 'dense_units': 81, 'num_lstm_layers': 2, 'learning_rate': 0.001} 0.9839374612934643
+{'gru_units': 256, 'dense_units': 51, 'learning_rate': 0.001} 0.9739788452787231
+{'num_filters': 25, 'kernel_size': 6, 'dense_units': 91, 'learning_rate': 0.001} 0.9760330504143973 3
+
+maize
+{'lstm_units': 209, 'dense_units': 107, 'learning_rate': 0.001} 0.9044889182776311
+{'lstm_units': 221, 'dense_units': 77, 'learning_rate': 0.001} 0.9134600967052823 3
+{'lstm_units': 167, 'dense_units': 123, 'num_lstm_layers': 2, 'learning_rate': 0.001} 0.9049784724061071
+{'gru_units': 160, 'dense_units': 54, 'learning_rate': 0.001} 0.901228748380429
+{'num_filters': 112, 'kernel_size': 5, 'dense_units': 124, 'learning_rate': 0.001} 0.9023198752822621 3
+
+potato
+{'lstm_units': 32, 'dense_units': 96, 'learning_rate': 0.001} 0.7833864824910314 2
+{'lstm_units': 32, 'dense_units': 77, 'learning_rate': 0.001} 0.7874525885335626 2
+{'lstm_units': 178, 'dense_units': 38, 'num_lstm_layers': 3, 'learning_rate': 0.001} 0.7862939932479744 2
+{'gru_units': 135, 'dense_units': 17, 'learning_rate': 0.001} 0.7826109014298284 2
+{'num_filters': 64, 'kernel_size': 3, 'dense_units': 46, 'learning_rate': 0.001} 0.7733956788445925 3
+
+onion
+{'lstm_units': 102, 'dense_units': 99, 'learning_rate': 0.001} 0.7941974680393427 2 
+{'lstm_units': 183, 'dense_units': 70, 'learning_rate': 0.001} 0.7678524617944128 2
+{'lstm_units': 101, 'dense_units': 87, 'num_lstm_layers': 2, 'learning_rate': 0.001} 0.7947674250654235 2
+{'gru_units': 145, 'dense_units': 51, 'learning_rate': 0.001} 0.7851895180994499 2
+{'num_filters': 42, 'kernel_size': 6, 'dense_units': 107, 'learning_rate': 0.001} 0.7757681474328177 3
